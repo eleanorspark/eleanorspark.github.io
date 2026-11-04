@@ -1,0 +1,713 @@
+<!doctype html>
+<html lang="en" class="js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Eleanor Park</title>
+  <meta name="description" content="Eleanor Park: my story, my work, and how I see the world.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="scroll-progress" aria-hidden="true"></div>
+  <header class="nav">
+    <a href="#home" class="brand">EP</a>
+    <div class="nav-right">
+      <p class="clocks nav-clocks">
+        <span>Seoul <time data-tz="Asia/Seoul">--:--</time></span>
+        <span>Irvine <time data-tz="America/Los_Angeles">--:--</time></span>
+      </p>
+    <button class="menu-btn" aria-expanded="false" aria-controls="menu">
+      <span class="menu-label">Menu</span>
+      <span class="bars" aria-hidden="true"><span></span><span></span></span>
+    </button>
+    </div>
+  </header>
+
+  <div id="menu" class="menu" hidden>
+    <nav class="menu-groups" aria-label="Site">
+      <div class="group-col">
+        <div class="chapter">
+          <p class="chapter-label"><span>I</span>Prologue</p>
+          <a href="#home" data-n="01" data-title="Eleanor Park" data-desc="Calm on the outside, always moving."><span class="n">01</span>Home</a>
+          <a href="#story" data-n="02" data-title="My story" data-desc="Irvine to Seoul, ballet, and now Class of 2028."><span class="n">02</span>Story</a>
+        </div>
+        <div class="chapter">
+          <p class="chapter-label"><span>II</span>The work</p>
+          <a href="#ventures" data-n="03" data-title="Experience" data-desc="PeaceMakers Korea, KADIS, research, Model UN, and fencing."><span class="n">03</span>Experience</a>
+        </div>
+      </div>
+      <div class="group-col">
+        <div class="chapter">
+          <p class="chapter-label"><span>III</span>Vantage</p>
+          <a href="#passion" data-n="04" data-title="On repeat" data-desc="DIMO REX, OKASHII, and the songs I can't stop playing."><span class="n">04</span>Music</a>
+          <a href="#lens" data-n="05" data-title="Through my lens" data-desc="Seoul, Irvine, and everywhere in between."><span class="n">05</span>Lens</a>
+        </div>
+        <div class="chapter">
+          <p class="chapter-label"><span>IV</span>On record</p>
+          <a href="#writing" data-n="06" data-title="In the news" data-desc="PeaceMakers Korea × Yeongdeungpo District Council forum."><span class="n">06</span>News</a>
+        </div>
+        <div class="chapter">
+          <p class="chapter-label"><span>V</span>Correspondence</p>
+          <a href="#contact" data-n="07" data-title="Say hi" data-desc="e1eanxrpark@gmail.com · eleanorpark@kadis.kr"><span class="n">07</span>Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <aside class="preview" aria-hidden="true">
+      <p class="preview-count"><span class="pc-n">01</span> / 07 <span class="dot"></span> <span class="pc-name">Home</span></p>
+      <p class="preview-num">01</p>
+      <p class="preview-title">Eleanor Park</p>
+      <p class="preview-desc">Calm on the outside, always moving.</p>
+      <div class="preview-bar"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+    </aside>
+
+    <div class="menu-foot">
+      <span><a href="mailto:e1eanxrpark@gmail.com">e1eanxrpark@gmail.com</a> · <a href="mailto:eleanorpark@kadis.kr">eleanorpark@kadis.kr</a></span>
+      <span>© 2026 Eleanor Park</span>
+    </div>
+  </div>
+
+  <main>
+    <!-- I. PROLOGUE: Home -->
+    <section id="home" class="hero">
+      <p class="eyebrow">I · Prologue</p>
+      <h1>Calm on the outside, always <em>moving.</em></h1>
+      <p class="lede">I'm Eleanor, born in Irvine and based in Seoul.</p>
+      <p class="places">High school student · Class of 2028</p>
+
+      <div class="chapters">
+        <article class="chapter-story" data-art="pirouette">
+          <p class="ghost" aria-hidden="true">Ballet</p>
+          <div class="cs-text">
+            <p class="cs-meta"><span>01</span> — Ballet · 2018 – 2020</p>
+            <h2 class="cs-head">Eight years <em>en pointe.</em></h2>
+            <p class="cs-desc">Dancing since age three, a ballet major from nine to eleven.</p>
+            <p class="cs-stat">8 <small>years of ballet</small></p>
+          </div>
+          <svg class="cs-art cs-tall" viewBox="0 0 736 1308" aria-hidden="true"></svg>
+          <p class="cs-side" aria-hidden="true">Seoul · 2018 – 2020</p>
+        </article>
+
+        <article class="chapter-story flip" data-art="contour">
+          <p class="ghost" aria-hidden="true">DMZ</p>
+          <div class="cs-text">
+            <p class="cs-meta"><span>02</span> — 19th DMZ Youth Expedition · 2025 – 2027</p>
+            <h2 class="cs-head">Studying the land <em>no one walks.</em></h2>
+            <p class="cs-desc">Researching how stone piles and plants shape wildlife.</p>
+          </div>
+          <svg class="cs-art" viewBox="0 0 400 320" aria-hidden="true"></svg>
+          <p class="cs-side" aria-hidden="true">DMZ · 38°N</p>
+        </article>
+
+        <article class="chapter-story" data-art="dome">
+          <p class="ghost" aria-hidden="true">PeaceMakers</p>
+          <div class="cs-text">
+            <p class="cs-meta"><span>03</span> — PeaceMakers Korea · 2026</p>
+            <h2 class="cs-head">Speaking up for <em>unheard voices.</em></h2>
+            <p class="cs-desc">As Director of Operations: a forum with the Yeongdeungpo District Council and a talk at the National Assembly.</p>
+          </div>
+          <svg class="cs-art" viewBox="0 0 400 320" aria-hidden="true"></svg>
+          <p class="cs-side" aria-hidden="true">Seoul · Yeouido · 2026</p>
+        </article>
+
+        <article class="chapter-story flip" data-art="hemicycle">
+          <p class="ghost" aria-hidden="true">Delegate</p>
+          <div class="cs-text">
+            <p class="cs-meta"><span>04</span> — Model UN · 2025 – now</p>
+            <h2 class="cs-head">From delegate <em>to the chair.</em></h2>
+            <p class="cs-desc">Delegate, deputy chair, chair, and secretariat.</p>
+            <p class="cs-stat">8 <small>conferences</small></p>
+          </div>
+          <svg class="cs-art" viewBox="0 0 400 320" aria-hidden="true"></svg>
+          <p class="cs-side" aria-hidden="true">Model UN · 2025 – now</p>
+        </article>
+
+        <article class="chapter-story" data-art="piste">
+          <p class="ghost" aria-hidden="true">En garde</p>
+          <div class="cs-text">
+            <p class="cs-meta"><span>05</span> — Fencing</p>
+            <h2 class="cs-head">Calm, then <em>quick.</em></h2>
+            <p class="cs-desc">Podium finishes at the Yeonsu-gu Mayor's Cup and the Dong-A Ilbo Championship.</p>
+            <p class="cs-stat">3 <small>podium finishes</small></p>
+          </div>
+          <svg class="cs-art" viewBox="0 0 400 320" aria-hidden="true"></svg>
+          <p class="cs-side" aria-hidden="true">Fencing · Incheon</p>
+        </article>
+      </div>
+      <div class="choose">
+        <div class="choose-head">
+          <h2>Choose a <em>chapter</em></h2>
+          <p>Each one is its own story.</p>
+        </div>
+        <div class="choose-grid">
+          <a href="#story"><span class="cg-meta">02 <i></i> The beginning</span><strong>Story</strong><span class="cg-desc">Irvine to Seoul, with eight years of ballet in between.</span></a>
+          <a href="#ventures"><span class="cg-meta">03 <i></i> The work</span><strong>Experience</strong><span class="cg-desc">PeaceMakers Korea, KADIS, Model UN, research and fencing.</span></a>
+          <a href="#passion"><span class="cg-meta">04 <i></i> On repeat</span><strong>Music</strong><span class="cg-desc">DIMO REX, OKASHII, and the songs that sound like Irvine.</span></a>
+          <a href="#lens"><span class="cg-meta">05 <i></i> Viewfinder</span><strong>Lens</strong><span class="cg-desc">Seoul, Irvine, and everywhere in between.</span></a>
+          <a href="#writing"><span class="cg-meta">06 <i></i> On record</span><strong>News</strong><span class="cg-desc">Press on the PeaceMakers Korea forum.</span></a>
+        </div>
+      </div>
+
+      <div class="note-wrap">
+        <p class="note-kicker">Correspondence</p>
+        <h2 class="note-quote">Leave a note, <em>I'll write back.</em></h2>
+
+        <div class="postcard">
+          <div class="pc-left">
+            <p class="pc-dear">Dear Eleanor,</p>
+            <span class="pc-line"></span><span class="pc-line"></span><span class="pc-line short"></span>
+            <a class="pc-send" href="mailto:e1eanxrpark@gmail.com">Write the note <span aria-hidden="true">✎</span></a>
+          </div>
+          <div class="pc-right">
+            <div class="stamp">
+              <span class="stamp-in">
+                <span class="st-top"><b>E.P.</b><b>No. 01</b></span>
+                <svg class="st-art" viewBox="0 0 60 60" aria-hidden="true">
+                  <rect x="8" y="20" width="44" height="28" rx="4"/>
+                  <path d="M20 20 l4 -6 h12 l4 6"/>
+                  <circle cx="30" cy="34" r="9"/><circle cx="30" cy="34" r="4"/>
+                  <circle cx="45" cy="26" r="1.6"/>
+                </svg>
+                <span class="st-bot">Through my lens</span>
+              </span>
+            </div>
+            <div class="postmark" aria-hidden="true">
+              <svg viewBox="0 0 200 90">
+                <path d="M0 22 q12 -8 24 0 t24 0 t24 0 t24 0 M0 36 q12 -8 24 0 t24 0 t24 0 t24 0 M0 50 q12 -8 24 0 t24 0 t24 0 t24 0 M0 64 q12 -8 24 0 t24 0 t24 0 t24 0"/>
+                <circle cx="148" cy="44" r="38"/><circle cx="148" cy="44" r="30"/>
+              </svg>
+              <span class="pm-date"><b class="pm-day">04</b><small class="pm-mon">NOV 2026</small></span>
+            </div>
+            <div class="pc-address">
+              <p>To</p>
+              <div class="addr-row"><a class="addr" href="mailto:e1eanxrpark@gmail.com">e1eanxrpark@gmail.com</a><button type="button" class="copy-btn" data-copy="e1eanxrpark@gmail.com">Copy</button></div>
+              <div class="addr-row"><a class="addr" href="mailto:eleanorpark@kadis.kr">eleanorpark@kadis.kr</a><button type="button" class="copy-btn" data-copy="eleanorpark@kadis.kr">Copy</button></div>
+            </div>
+          </div>
+        </div>
+
+        <p class="signoff">— <em>Eleanor</em>, calm on the outside, always moving.</p>
+      </div>
+      <nav class="cs-dots" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></nav>
+    </section>
+
+    <!-- I. PROLOGUE: Story -->
+    <section id="story">
+      <p class="eyebrow">I · Prologue</p>
+      <h2>My story</h2>
+      <div class="timeline">
+        <div class="item"><span class="when">Beginning</span><div><h3>Born in Irvine, California</h3></div></div>
+        <div class="item"><span class="when">Ages 0–6</span><div><h3>Between Irvine and Seoul</h3><p>Back and forth between two homes.</p></div></div>
+        <div class="item"><span class="when">Age 6</span><div><h3>Settled in Seoul</h3><p>Korean public school.</p></div></div>
+        <div class="item"><span class="when">2018 – 2020</span><div><h3>Ballet major</h3><p>Dancing since age 3. Stepped away at 11.</p></div></div>
+        <div class="item"><span class="when">Jan 2025</span><div><h3>Moved to Ivy Collegiate School</h3><p>9th grade, 2nd semester.</p></div></div>
+        <div class="item"><span class="when">Now</span><div><h3>High school, Class of 2028</h3></div></div>
+      </div>
+    </section>
+
+    <!-- II. THE WORK: Experience -->
+    <section id="ventures">
+      <p class="eyebrow">II · The work</p>
+      <h2>Experience</h2>
+      <div class="timeline">
+        <div class="item"><span class="when">Class of 2028</span><div><h3>Ivy Collegiate School</h3></div></div>
+      </div>
+
+      <h3 class="sub"><a href="https://peacemakerskorea.lovable.app/" target="_blank" rel="noopener">PeaceMakers Korea ↗</a></h3>
+      <p class="org-meta">Director of Operations · 2026 – present · Nonprofit for the human rights of North Korean defectors</p>
+      <ul class="rows">
+        <li><span>Forum with the Yeongdeungpo District Council on a North Korean human rights memorial</span><span>2026</span></li>
+        <li><span>Presented a youth diplomatic doctrine at the National Assembly</span><span>Jul 2026</span></li>
+        <li><span>Volunteering with North Korean defectors, with Nanum Korea</span><span>2026</span></li>
+      </ul>
+
+      <h3 class="sub"><a href="https://www.kadis.kr/" target="_blank" rel="noopener">KADIS ↗</a></h3>
+      <p class="org-meta">Founding Executive · Korea Academic &amp; Diplomatic International Society</p>
+      <ul class="rows">
+        <li><span><strong>KSMUN</strong> · Organizing Committee, USG of Crisis · <em>The Trojan War &amp; The Odyssey</em></span><span>Nov 2026</span></li>
+      </ul>
+
+      <h3 class="sub">Research</h3>
+      <div class="timeline">
+        <div class="item"><span class="when">2025 – 2027</span><div><h3>19th DMZ Youth Expedition</h3><p>How stone piles and vegetation cover affect DMZ wildlife.</p></div></div>
+        <div class="item"><span class="when">2026</span><div><h3>Ajou University research paper</h3><p>North Korean politics and international relations.</p></div></div>
+      </div>
+
+      <h3 class="sub">Model United Nations</h3>
+      <p class="group">Secretariat</p>
+      <ul class="rows">
+        <li><span><strong>KSMUN</strong> · USG of Crisis</span></li>
+      </ul>
+      <p class="group">Chair</p>
+      <ul class="rows">
+        <li><span><strong>KMUN 2027</strong> · Chair, ECOSOC</span></li>
+        <li><span><strong>DLMUNC VII</strong> · Deputy Chair, IMF</span></li>
+        <li><span><strong>DLMUNCS VI</strong> · Deputy Chair, UNOOSA</span></li>
+        <li><span><strong>KYOMUN</strong> · Deputy Chair, UNCSTD</span></li>
+      </ul>
+      <p class="group">Delegate</p>
+      <ul class="rows">
+        <li><span><strong>KNAMUN</strong> · UNSC, Nigeria</span></li>
+        <li><span><strong>ICSMUN</strong> · ECOSOC, Nigeria</span></li>
+        <li><span><strong>SYMUN</strong> · ECOSOC, Indonesia</span></li>
+      </ul>
+
+      <h3 class="sub">Fencing</h3>
+      <ul class="rows">
+        <li><span>3rd Yeonsu-gu Mayor's Cup</span><span>2nd place</span></li>
+        <li><span>Dong-A Ilbo Fencing Championship 2026</span><span>3rd place</span></li>
+        <li><span>2nd Yeonsu-gu Mayor's Cup</span><span>3rd place</span></li>
+      </ul>
+
+    </section>
+
+    <!-- III. VANTAGE: a personal passion (the reference uses "Sky") -->
+    <section id="passion">
+      <p class="eyebrow">III · Vantage</p>
+      <h2>Music</h2>
+      <p>I love listening to music.</p>
+      <ul class="facts">
+        <li><strong>Favorite artists:</strong> DIMO REX, OKASHII, KC, OSUN, NO:EL, Yang Hongwon</li>
+        <li><strong>Songs that remind me of Irvine:</strong> What Makes You Beautiful (One Direction), Just the Way You Are (Bruno Mars)</li>
+      </ul>
+      <h3 class="sub">On repeat</h3>
+      <ol class="songs">
+        <li><span class="song">BLESSIN</span><span class="artist">DIMO REX</span></li>
+        <li><span class="song">Skin of gold</span><span class="artist">dress, Raf Sandou, DIMO REX, Joh!</span></li>
+        <li><span class="song">RUMBLE</span><span class="artist">OKASHII</span></li>
+        <li><span class="song">Moonlight</span><span class="artist">OKASHII</span></li>
+        <li><span class="song">Downtown</span><span class="artist">BIG Naughty, Kid Milli</span></li>
+        <li><span class="song">I Wanna Be Yours</span><span class="artist">Arctic Monkeys</span></li>
+      </ol>
+    </section>
+
+    <!-- III. VANTAGE: Lens (photography) -->
+    <section id="lens">
+      <p class="eyebrow">III · Vantage</p>
+      <h2>Lens</h2>
+      <p>Seoul, Irvine, and everywhere in between.</p>
+      <!-- Replace each <div class="photo"> with <img class="photo" src="your-photo.jpg" alt="description"> -->
+      <div class="gallery">
+        <figure><div class="photo"></div><figcaption>[Place, year]</figcaption></figure>
+        <figure><div class="photo"></div><figcaption>[Place, year]</figcaption></figure>
+        <figure><div class="photo"></div><figcaption>[Place, year]</figcaption></figure>
+        <figure><div class="photo"></div><figcaption>[Place, year]</figcaption></figure>
+        <figure><div class="photo"></div><figcaption>[Place, year]</figcaption></figure>
+        <figure><div class="photo"></div><figcaption>[Place, year]</figcaption></figure>
+      </div>
+    </section>
+
+    <!-- IV. ON RECORD: Press -->
+    <section id="writing">
+      <p class="eyebrow">IV · On record</p>
+      <h2>In the news</h2>
+      <p>PeaceMakers Korea × Yeongdeungpo District Council forum.</p>
+      <ul class="posts">
+        <li><a href="https://www.ydptoday.com/news/articleView.html?idxno=24099" target="_blank" rel="noopener">Article ↗</a><span>ydptoday.com</span></li>
+        <li><a href="https://www.m-i.kr/news/articleView.html?idxno=1342796" target="_blank" rel="noopener">Article ↗</a><span>m-i.kr</span></li>
+        <li><a href="https://www.swnews.kr/news/articleView.html?idxno=84994" target="_blank" rel="noopener">Article ↗</a><span>swnews.kr</span></li>
+        <li><a href="https://www.pinpointnews.co.kr/news/articleView.html?idxno=433999" target="_blank" rel="noopener">Article ↗</a><span>pinpointnews.co.kr</span></li>
+      </ul>
+    </section>
+
+    <!-- V. CORRESPONDENCE: Contact -->
+    <section id="contact" class="contact">
+      <p class="eyebrow">V · Correspondence</p>
+      <h2>Contact</h2>
+      <p>Say hi.</p>
+      <a class="button" href="mailto:e1eanxrpark@gmail.com">e1eanxrpark@gmail.com</a>
+      <a class="button" href="mailto:eleanorpark@kadis.kr">eleanorpark@kadis.kr</a>
+      <p class="socials"><a href="#">LinkedIn ↗</a> · <a href="#">Instagram ↗</a></p>
+    </section>
+  </main>
+
+  <footer>© 2026 Eleanor Park</footer>
+  <script>
+    function tick() {
+      document.querySelectorAll('time[data-tz]').forEach(function (el) {
+        el.textContent = new Date().toLocaleTimeString('en-US', {
+          timeZone: el.dataset.tz, hour: '2-digit', minute: '2-digit', hour12: false
+        });
+      });
+    }
+    tick();
+    setInterval(tick, 10000);
+
+    // Show one section at a time, based on the menu link clicked
+    var sections = Array.prototype.slice.call(document.querySelectorAll('main > section'));
+    var links = document.querySelectorAll('.menu-groups a');
+    function show() {
+      var target = document.getElementById(location.hash.slice(1));
+      if (sections.indexOf(target) === -1) target = sections[0];
+      sections.forEach(function (s) { s.classList.toggle('active', s === target); });
+      links.forEach(function (a) {
+        if (a.getAttribute('href') === '#' + target.id) a.setAttribute('aria-current', 'page');
+        else a.removeAttribute('aria-current');
+      });
+      window.scrollTo({ top: 0, behavior: 'instant' });
+      if (typeof onScroll === 'function') requestAnimationFrame(onScroll);
+    }
+    window.addEventListener('hashchange', function () { show(); closeMenu(); });
+
+    // Full-screen menu
+    var btn = document.querySelector('.menu-btn');
+    var menu = document.getElementById('menu');
+    var label = btn.querySelector('.menu-label');
+    var items = Array.prototype.slice.call(menu.querySelectorAll('.menu-groups a'));
+    var bars = menu.querySelectorAll('.preview-bar span');
+    function preview(a) {
+      var i = items.indexOf(a);
+      menu.querySelector('.pc-n').textContent = a.dataset.n;
+      menu.querySelector('.pc-name').textContent = a.textContent.replace(a.dataset.n, '').trim();
+      menu.querySelector('.preview-num').textContent = a.dataset.n;
+      menu.querySelector('.preview-title').textContent = a.dataset.title;
+      menu.querySelector('.preview-desc').textContent = a.dataset.desc;
+      bars.forEach(function (b, k) { b.classList.toggle('on', k === i); });
+    }
+    function currentItem() {
+      var id = (document.querySelector('main > section.active') || {}).id || 'home';
+      return items.filter(function (a) { return a.getAttribute('href') === '#' + id; })[0] || items[0];
+    }
+    function openMenu() {
+      menu.hidden = false; document.body.classList.add('menu-open');
+      btn.setAttribute('aria-expanded', 'true'); label.textContent = 'Close';
+      preview(currentItem());
+    }
+    function closeMenu() {
+      menu.hidden = true; document.body.classList.remove('menu-open');
+      btn.setAttribute('aria-expanded', 'false'); label.textContent = 'Menu';
+    }
+    btn.addEventListener('click', function () { menu.hidden ? openMenu() : closeMenu(); });
+    items.forEach(function (a) {
+      a.addEventListener('mouseenter', function () { preview(a); });
+      a.addEventListener('focus', function () { preview(a); });
+      a.addEventListener('click', closeMenu);
+    });
+    menu.querySelector('.menu-groups').addEventListener('mouseleave', function () { preview(currentItem()); });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && !menu.hidden) { closeMenu(); btn.focus(); } });
+
+    // ---- Home page chapters: line drawings, reveal on scroll, progress dots ----
+    var NS = 'http://www.w3.org/2000/svg';
+    function el(svg, tag, attrs) { var e = document.createElementNS(NS, tag); for (var k in attrs) e.setAttribute(k, attrs[k]); svg.appendChild(e); return e; }
+    var arts = {
+      pirouette: function (svg) {
+        // two feet en pointe, legs crossing (same line style as the other chapters)
+        var L = function (d, c) { el(svg, 'path', { d: d, 'class': c || 'ln' }); };
+        // floor rings under the toes
+        for (var k = 0; k < 4; k++) {
+          el(svg, 'ellipse', { cx: 170, cy: 1262, rx: 90 + k * 60, ry: 14 + k * 9, 'class': 'ln dot' });
+          el(svg, 'ellipse', { cx: 554, cy: 1232, rx: 80 + k * 55, ry: 12 + k * 8, 'class': k === 1 ? 'hi' : 'ln dot' });
+        }
+        // legs
+        L('M150 0 C146 140 134 300 122 420 M292 300 C296 350 300 400 302 450', 'ln dot');
+        L('M436 0 C410 150 350 330 312 470 M584 0 C560 160 520 330 494 470', 'ln dot');
+        // left foot (front view)
+        L('M118 420 L302 450 L300 520 L112 488 Z');
+        L('M112 488 C70 560 40 680 40 800 C40 900 50 1000 70 1090 C82 1160 92 1220 96 1252 Q170 1270 244 1252 C262 1170 290 1050 296 940 C300 800 302 640 300 520');
+        L('M44 760 C56 960 116 1060 168 1058 C222 1056 284 960 298 760', 'hi');
+        L('M162 1050 c-10 8 -6 20 6 14 c10 -6 6 -18 -6 -14');
+        L('M120 500 L296 700 M296 540 L56 770 M60 600 L292 860', 'ln dot');
+        // right foot (side view): arched instep, curved shank, toe down
+        L('M312 470 L494 470 L492 532 L314 544 Z');
+        L('M314 544 C300 640 296 760 330 880 C356 980 410 1100 470 1196 L498 1230 Q560 1240 610 1216 C600 1150 586 1060 560 980 C540 920 528 880 540 840 C560 790 610 740 650 700 C668 680 668 640 652 600 C620 560 560 540 494 532');
+        L('M652 600 C640 680 590 760 560 820 C540 870 556 960 590 1080 C600 1130 604 1180 600 1206', 'ln dot');
+        L('M340 700 C430 640 540 590 640 584 M352 760 C440 700 540 650 620 640', 'ln dot');
+      },
+      contour: function (svg) {
+        for (var i = 0; i < 10; i++) {
+          var d = '', k = 1 - i * 0.09;
+          for (var a = 0; a <= 360; a += 6) {
+            var r = a * Math.PI / 180, n = 1 + 0.07 * Math.sin(3 * r + i) + 0.05 * Math.sin(5 * r + i * 2);
+            var x = 200 + Math.cos(r) * 180 * k * n, y = 165 + Math.sin(r) * 115 * k * n;
+            d += (a ? 'L' : 'M') + x.toFixed(1) + ' ' + y.toFixed(1);
+          }
+          el(svg, 'path', { d: d + 'Z', 'class': i === 0 ? 'hi' : 'ln dot' });
+        }
+        [[120, 120], [270, 110], [300, 210], [150, 220], [210, 160]].forEach(function (p) { el(svg, 'circle', { cx: p[0], cy: p[1], r: 5, 'class': 'ln' }); });
+      },
+      dome: function (svg) {
+        el(svg, 'path', { d: 'M110 130 A90 70 0 0 1 290 130', 'class': 'hi' });
+        for (var i = 1; i < 6; i++) { var x = 110 + i * 30; el(svg, 'path', { d: 'M200 60 Q' + (x + (x - 200) * 0.2) + ' 80 ' + x + ' 130', 'class': 'ln dot' }); }
+        el(svg, 'rect', { x: 70, y: 130, width: 260, height: 14, 'class': 'ln' });
+        el(svg, 'rect', { x: 50, y: 144, width: 300, height: 12, 'class': 'ln' });
+        for (var c = 0; c < 12; c++) el(svg, 'line', { x1: 66 + c * 24, y1: 156, x2: 66 + c * 24, y2: 250, 'class': 'ln' });
+        el(svg, 'rect', { x: 40, y: 250, width: 320, height: 12, 'class': 'ln' });
+        for (var st = 0; st < 4; st++) el(svg, 'line', { x1: 30 - st * 8, y1: 270 + st * 9, x2: 370 + st * 8, y2: 270 + st * 9, 'class': 'ln dot' });
+      },
+      rings: function (svg) {
+        for (var i = 0; i < 8; i++) el(svg, 'circle', { cx: 200, cy: 160, r: 20 + i * 18, 'class': i === 3 ? 'hi' : 'ln dot' });
+        el(svg, 'rect', { x: 186, y: 110, width: 28, height: 100, 'class': 'ln' });
+        el(svg, 'line', { x1: 200, y1: 60, x2: 200, y2: 110, 'class': 'ln' });
+      },
+      hemicycle: function (svg) {
+        for (var row = 0; row < 7; row++) {
+          var R = 70 + row * 20, seats = 10 + row * 3;
+          for (var s2 = 0; s2 <= seats; s2++) {
+            var ang = Math.PI + (s2 / seats) * Math.PI;
+            if (Math.abs(ang - 1.5 * Math.PI) < 0.07) continue;
+            el(svg, 'circle', { cx: (200 + Math.cos(ang) * R).toFixed(1), cy: (270 + Math.sin(ang) * R).toFixed(1), r: 3, 'class': 'ln' });
+          }
+        }
+        el(svg, 'line', { x1: 200, y1: 120, x2: 200, y2: 262, 'class': 'hi dot' });
+        el(svg, 'rect', { x: 170, y: 262, width: 60, height: 18, 'class': 'hi' });
+      },
+      piste: function (svg) {
+        // a foil: thin blade, button tip, small bell guard, French grip, pommel
+        el(svg, 'line', { x1: 20, y1: 300, x2: 380, y2: 300, 'class': 'ln dot' });
+        el(svg, 'path', { d: 'M108 226 Q250 154 366 69 M112 234 Q254 162 366 69', 'class': 'ln' });
+        el(svg, 'circle', { cx: 369, cy: 66, r: 4.5, 'class': 'hi' });
+        el(svg, 'ellipse', { cx: 116, cy: 226, rx: 26, ry: 7, transform: 'rotate(58 116 226)', 'class': 'ln dot' });
+        el(svg, 'ellipse', { cx: 110, cy: 230, rx: 31, ry: 10, transform: 'rotate(58 110 230)', 'class': 'hi' });
+        el(svg, 'path', { d: 'M112.7 234.2 L107.3 225.8 L47.5 261.5 L54.5 272.5 Z', 'class': 'ln' });
+        el(svg, 'path', { d: 'M96 236 l4 7 M84 243 l4 7 M72 250 l4 7 M60 257 l4 7', 'class': 'ln' });
+        el(svg, 'circle', { cx: 45, cy: 272, r: 8, 'class': 'ln' });
+        // motion of the lunge
+        [[300, 60], [318, 92], [272, 46]].forEach(function (p, k) { el(svg, 'path', { d: 'M' + p[0] + ' ' + p[1] + ' l' + (40 - k * 8) + ' ' + (-(25 - k * 5)), 'class': 'ln dot' }); });
+      }
+    };
+    var stories = Array.prototype.slice.call(document.querySelectorAll('.chapter-story'));
+    stories.forEach(function (st) { var f = arts[st.dataset.art]; if (f) f(st.querySelector('.cs-art')); });
+    var dots = document.querySelectorAll('.cs-dots span');
+    if ('IntersectionObserver' in window) {
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+          if (e.isIntersecting) {
+            e.target.classList.add('in');
+            var n = stories.indexOf(e.target);
+            dots.forEach(function (d, k) { d.classList.toggle('on', k === n); });
+          }
+        });
+      }, { threshold: 0.45 });
+      stories.forEach(function (st) { io.observe(st); });
+      var dotIo = new IntersectionObserver(function (entries) {
+        document.querySelector('.cs-dots').classList.toggle('show', entries[0].isIntersecting);
+      }, { threshold: 0 });
+      dotIo.observe(document.querySelector('.chapters'));
+    } else {
+      stories.forEach(function (st) { st.classList.add('in'); });
+    }
+
+    // analog clocks
+    function hands() {
+      document.querySelectorAll('.aclock').forEach(function (svg) {
+        var t = new Date().toLocaleTimeString('en-US', { timeZone: svg.dataset.tz, hour12: false, hour: '2-digit', minute: '2-digit' }).split(':');
+        var h = (+t[0]) % 12, m = +t[1];
+        svg.querySelector('.h').setAttribute('transform', 'rotate(' + (h * 30 + m / 2) + ' 20 20)');
+        svg.querySelector('.m').setAttribute('transform', 'rotate(' + (m * 6) + ' 20 20)');
+      });
+    }
+    hands(); setInterval(hands, 20000);
+    // copy email
+    document.querySelectorAll('.copy-btn').forEach(function (b) {
+      b.addEventListener('click', function () {
+        var done = function () { b.textContent = 'Copied'; setTimeout(function () { b.textContent = 'Copy'; }, 1600); };
+        try { navigator.clipboard.writeText(b.dataset.copy).then(done, function () {}); } catch (e) {}
+      });
+    });
+    // postmark shows today's date
+    (function () {
+      var d = new Date();
+      var day = document.querySelector('.pm-day'), mon = document.querySelector('.pm-mon');
+      if (day) day.textContent = String(d.getDate()).padStart(2, '0');
+      if (mon) mon.textContent = d.toLocaleString('en-US', { month: 'short' }).toUpperCase() + ' ' + d.getFullYear();
+    })();
+
+    // ===== Scroll animations =====
+    var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    // 1) headline words rise in, one by one
+    document.querySelectorAll('.hero h1').forEach(function (h) {
+      var i = 0;
+      (function wrap(node) {
+        Array.prototype.slice.call(node.childNodes).forEach(function (n) {
+          if (n.nodeType === 3) {
+            var frag = document.createDocumentFragment();
+            n.textContent.split(/(\s+)/).forEach(function (part) {
+              if (!part) return;
+              if (/^\s+$/.test(part)) { frag.appendChild(document.createTextNode(part)); return; }
+              var w = document.createElement('span'); w.className = 'w';
+              var inner = document.createElement('span'); inner.textContent = part;
+              inner.style.transitionDelay = (0.08 * i++) + 's';
+              w.appendChild(inner); frag.appendChild(w);
+            });
+            n.parentNode.replaceChild(frag, n);
+          } else if (n.nodeType === 1) { wrap(n); }
+        });
+      })(h);
+      requestAnimationFrame(function () { setTimeout(function () { h.classList.add('words-in'); }, 80); });
+    });
+
+    // 2) fade-up reveal for content blocks, staggered within each group
+    var revealSel = [
+      'main > section > .eyebrow', 'main > section > h2', 'main > section > p',
+      '.hero .lede', '.hero .places',
+      '.timeline .item', '.rows li', '.songs li', '.posts li', '.facts li',
+      '.gallery figure', '.sub', '.org-meta', '.group',
+      '.choose-head', '.choose-grid a',
+      '.note-kicker', '.note-quote', '.postcard', '.signoff',
+      '.contact .button', '.socials'
+    ].join(',');
+    var revealEls = Array.prototype.slice.call(document.querySelectorAll(revealSel));
+    revealEls.forEach(function (el) {
+      el.classList.add('rv');
+      var sibs = Array.prototype.slice.call(el.parentNode.children).filter(function (c) { return c.matches && c.matches(revealSel); });
+      var k = Math.min(sibs.indexOf(el), 8);
+      el.style.setProperty('--d', (k * 0.07) + 's');
+    });
+    if ('IntersectionObserver' in window && !reduce) {
+      var rio = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('is-in'); rio.unobserve(e.target); } });
+      }, { rootMargin: '0px 0px -8% 0px', threshold: 0.08 });
+      revealEls.forEach(function (el) { rio.observe(el); });
+      // pages that are hidden get re-checked when shown
+      window.addEventListener('hashchange', function () {
+        setTimeout(function () { revealEls.forEach(function (el) { if (!el.classList.contains('is-in')) { rio.unobserve(el); rio.observe(el); } }); }, 30);
+      });
+    } else {
+      revealEls.forEach(function (el) { el.classList.add('is-in'); });
+    }
+
+    // 3) big numbers count up when they appear
+    document.querySelectorAll('.cs-stat').forEach(function (st) {
+      var node = st.firstChild; if (!node || node.nodeType !== 3) return;
+      var target = parseInt(node.textContent, 10); if (isNaN(target) || reduce) return;
+      var suffix = node.textContent.replace(/^\s*\d+/, '');
+      node.textContent = '0' + suffix;
+      var done = false;
+      var cio = new IntersectionObserver(function (es) {
+        if (!es[0].isIntersecting || done) return; done = true;
+        var t0 = performance.now(), dur = 1200;
+        (function step(t) {
+          var p = Math.min(1, (t - t0) / dur), e = 1 - Math.pow(1 - p, 3);
+          node.textContent = Math.round(target * e) + suffix;
+          if (p < 1) requestAnimationFrame(step);
+        })(t0);
+      }, { threshold: 0.6 });
+      cio.observe(st);
+    });
+
+    // 4) parallax + progress bar, driven by scroll
+    var bar = document.querySelector('.scroll-progress');
+    var ghosts = Array.prototype.slice.call(document.querySelectorAll('.ghost'));
+    var artsEls = Array.prototype.slice.call(document.querySelectorAll('.cs-art'));
+    var ticking = false;
+    function onScroll() {
+      ticking = false;
+      var h = document.documentElement.scrollHeight - innerHeight;
+      if (bar) bar.style.transform = 'scaleX(' + (h > 0 ? scrollY / h : 0) + ')';
+      if (reduce) return;
+      ghosts.forEach(function (g) {
+        var r = g.parentNode.getBoundingClientRect(); if (r.bottom < 0 || r.top > innerHeight) return;
+        var p = (r.top + r.height / 2 - innerHeight / 2) / innerHeight;
+        g.style.translate = (p * -120) + 'px 0';
+      });
+      artsEls.forEach(function (a) {
+        var r = a.getBoundingClientRect(); if (r.bottom < 0 || r.top > innerHeight) return;
+        var p = (r.top + r.height / 2 - innerHeight / 2) / innerHeight;
+        a.style.translate = '0 ' + (p * 50) + 'px';
+      });
+    }
+    addEventListener('scroll', function () { if (!ticking) { ticking = true; requestAnimationFrame(onScroll); } }, { passive: true });
+    addEventListener('resize', onScroll);
+    onScroll();
+
+    // 5) header tucks away while scrolling down, returns when scrolling up
+    var nav = document.querySelector('.nav'), lastY = scrollY;
+    addEventListener('scroll', function () {
+      var y = scrollY;
+      if (!document.body.classList.contains('menu-open')) nav.classList.toggle('tucked', y > lastY && y > 140);
+      lastY = y;
+    }, { passive: true });
+
+    // ===== Particle drawings: each line drawing becomes dots that scatter and gather =====
+    (function () {
+      if (reduce || !window.HTMLCanvasElement) return;
+      var hiColor = '#d9b42c';
+      var mouse = { x: -9999, y: -9999 };
+      addEventListener('mousemove', function (e) { mouse.x = e.clientX; mouse.y = e.clientY; }, { passive: true });
+      addEventListener('mouseleave', function () { mouse.x = mouse.y = -9999; });
+
+      var scenes = [];
+      document.querySelectorAll('.chapter-story').forEach(function (story) {
+        var svg = story.querySelector('svg.cs-art'); if (!svg) return;
+        var canvas = document.createElement('canvas');
+        canvas.className = 'cs-particles'; canvas.setAttribute('aria-hidden', 'true');
+        story.appendChild(canvas);
+        svg.classList.add('particled');
+        scenes.push({ story: story, svg: svg, canvas: canvas, ctx: canvas.getContext('2d'), pts: [], w: 0, h: 0 });
+      });
+      if (!scenes.length) return;
+
+      function sample(sc) {
+        var r = sc.svg.getBoundingClientRect(); if (!r.width) return;
+        sc.w = r.width; sc.h = r.height;
+        var dpr = Math.min(2, devicePixelRatio || 1);
+        var P = sc.pad = 220;
+        sc.canvas.width = Math.round((r.width + 2 * P) * dpr); sc.canvas.height = Math.round((r.height + 2 * P) * dpr);
+        sc.canvas.style.width = (r.width + 2 * P) + 'px'; sc.canvas.style.height = (r.height + 2 * P) + 'px';
+        sc.ctx.setTransform(dpr, 0, 0, dpr, P * dpr, P * dpr);
+        var svgM = sc.svg.getScreenCTM().inverse(), pts = [];
+        var vb0 = sc.svg.viewBox.baseVal, fs = Math.min(r.width / vb0.width, r.height / vb0.height);
+        var fit = { s: fs, vx: vb0.x, vy: vb0.y, x: (r.width - vb0.width * fs) / 2, y: (r.height - vb0.height * fs) / 2 };
+        sc.svg.querySelectorAll('path, line, ellipse, circle, rect').forEach(function (el) {
+          if (!el.getTotalLength) return;
+          var len; try { len = el.getTotalLength(); } catch (e) { return; }
+          var m = svgM.multiply(el.getScreenCTM());
+          var hi = el.classList.contains('hi'), dot = el.classList.contains('dot');
+          var step = (dot ? 7 : 3.2) / Math.max(fs, 0.05);
+          for (var d = 0; d <= len; d += step) {
+            var p = el.getPointAtLength(d), q = p.matrixTransform(m);
+            var ang = Math.random() * Math.PI * 2, dist = 80 + Math.random() * 260;
+            pts.push({
+              hx: fit.x + (q.x - fit.vx) * fit.s, hy: fit.y + (q.y - fit.vy) * fit.s,
+              sx: Math.cos(ang) * dist, sy: Math.sin(ang) * dist - 40,
+              ox: 0, oy: 0, r: hi ? 1.7 : (dot ? 1.1 : 1.25), hi: hi,
+              ph: Math.random() * 6.28, sp: 0.6 + Math.random() * 0.8
+            });
+          }
+        });
+        sc.pts = pts;
+      }
+      function sampleAll() { scenes.forEach(sample); }
+
+      var textColor = getComputedStyle(document.body).color;
+      function frame(t) {
+        requestAnimationFrame(frame);
+        if (!document.getElementById('home').classList.contains('active')) return;
+        scenes.forEach(function (sc) {
+          var sr = sc.story.getBoundingClientRect();
+          if (sr.bottom < -50 || sr.top > innerHeight + 50) return;
+          if (!sc.pts.length) sample(sc);
+          var r = sc.svg.getBoundingClientRect();
+          sc.canvas.style.left = (r.left - sr.left - sc.pad) + 'px';
+          sc.canvas.style.top = (r.top - sr.top - sc.pad) + 'px';
+          // 1 = gathered into the drawing, 0 = fully scattered
+          var off = Math.abs((r.top + r.height / 2) - innerHeight / 2) / (innerHeight * 0.75);
+          var g = Math.max(0, Math.min(1, 1 - off)); g = g * g * (3 - 2 * g);
+          var ctx = sc.ctx; ctx.clearRect(-sc.pad, -sc.pad, sc.w + 2 * sc.pad, sc.h + 2 * sc.pad);
+          var mx = mouse.x - r.left, my = mouse.y - r.top, time = t / 1000;
+          for (var i = 0; i < sc.pts.length; i++) {
+            var p = sc.pts[i], k = 1 - g;
+            var tx = p.hx + p.sx * k + Math.sin(time * p.sp + p.ph) * (1.2 + 10 * k);
+            var ty = p.hy + p.sy * k + Math.cos(time * p.sp + p.ph) * (1.2 + 10 * k);
+            var dx = tx - mx, dy = ty - my, d2 = dx * dx + dy * dy;
+            if (d2 < 5000) { var f = (5000 - d2) / 5000 * 26 / Math.sqrt(d2 + 1); tx += dx * f; ty += dy * f; }
+            p.ox += (tx - p.hx - p.ox) * 0.12; p.oy += (ty - p.hy - p.oy) * 0.12;
+            ctx.globalAlpha = 0.25 + 0.75 * g;
+            ctx.fillStyle = p.hi ? hiColor : textColor;
+            ctx.beginPath(); ctx.arc(p.hx + p.ox, p.hy + p.oy, p.r, 0, 6.283); ctx.fill();
+          }
+        });
+      }
+      var rt; addEventListener('resize', function () { clearTimeout(rt); rt = setTimeout(sampleAll, 150); });
+      if (document.fonts && document.fonts.ready) document.fonts.ready.then(sampleAll); else sampleAll();
+      addEventListener('hashchange', function () { setTimeout(sampleAll, 60); });
+      requestAnimationFrame(frame);
+    })();
+    show();
+  </script>
+</body>
+</html>
